@@ -1,0 +1,91 @@
+body,
+ul,
+li,
+p {
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS cabeçalho--Inicio*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+#carrinho{
+    display: flex;
+    justify-content: right;
+    padding-left: 60%;
+    
+}
+
+.barra {
+    padding-right: 150px;
+    background-color: aqua;
+    display: flex;
+}
+
+.nav-item {
+    top: 0px;
+    font-size: 15px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+#formulario{
+    margin-top: 17px;
+    background-color: black;
+
+}
+
+
+/* CSS Cabeçalho--Fim*/
+
+/* CSS Rodapé--Inicio*/
+.footer {
+    text-align: center;
+    text-decoration: none;
+}
+
+/* CSS Rodapé--Fim*/
+
+
+/*Flex box 1--Inicio*/
+
+.flex {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-left: 0%;
+}
+
+/*.flex>div {}*/
+
+.card {
+    display: inline-block;
+    border-color: black;
+    margin: 10px;
+}
+
+
+
+/*Flex box 1--Fim*/
